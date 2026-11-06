@@ -1,5 +1,7 @@
 # Taming Ill-Conditioning in PINNs: Exact Second-Order Descent via Gauss–Newton
 
+**Mike Zhao** · `zzhao24@stanford.edu` · [https://github.com/mizhkeao/exact-gauss-newton](https://github.com/mizhkeao/exact-gauss-newton)
+
 ---
 
 ## 1. Conclusions of Rathore et al. (ICML 2024)

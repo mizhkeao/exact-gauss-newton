@@ -42,7 +42,7 @@ Head-to-head comparison across 10 clean PDEs and Gaussian-noisy PDEs on 3-layer 
 
 ## Documents & Reports
 
-- **Class Report (PDF, strictly 3 pages):** [`docs/class_report.pdf`](docs/class_report.pdf)
+- **Class Report (PDF):** [`docs/class_report.pdf`](docs/class_report.pdf)
 - **Overleaf Bundle:** [`docs/overleaf_project.zip`](docs/overleaf_project.zip) (contains `main.tex` and all publication figures)
 - **LaTeX Source:** [`docs/class_report.tex`](docs/class_report.tex)
 - **Markdown Version:** [`docs/class_report.md`](docs/class_report.md)
