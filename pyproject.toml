@@ -1,0 +1,30 @@
+[project]
+name = "exact-gauss-newton"
+version = "0.1.0"
+description = "Exact Gauss-Newton (EGN) for PINNs, reproducing and extending Rathore et al. (ICML 2024)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch>=2.9",        # torch.optim.Muon first shipped in 2.9
+    "numpy>=2,<3",
+    "scipy>=1.13",
+    "matplotlib>=3.10,<4",
+    "pandas>=2.2",
+    "pyyaml>=6",
+    "tqdm>=4.66",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6", "jupyterlab>=4,<5", "ipykernel>=6,<8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/exact_gauss_newton"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

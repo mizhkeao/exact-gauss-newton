@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+results/*
+!results/.gitkeep
+!results/campaign/
+!results/figures/
+third_party/*
+!third_party/README.md
+*.aux
+*.log
+*.out
